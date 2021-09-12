@@ -93,3 +93,17 @@ function changeVoiceSpeed(voiceSpeed) {
     speech.rate = 0.5;
   }
 }
+
+document.getElementById("stopSpeechButton").addEventListener("click", () => {
+  stopSpeech();
+});
+
+document.getElementById("pauseSpeechButton").addEventListener("click", () => {
+  pauseSpeech();
+});
+
+document
+  .getElementById("speakInputTextButton")
+  .addEventListener("click", () => {
+    speakInputText();
+  });
