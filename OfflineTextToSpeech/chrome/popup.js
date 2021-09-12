@@ -10,14 +10,16 @@ speech.pitch = 1;
 speech.volume = 1;
 speech.voice = speechSynthesis.getVoices()[0];
 
-function speakInputText() {
-  isSpeaking = true;
+document
+  .getElementById("speakInputTextButton")
+  .addEventListener("click", () => {
+    isSpeaking = true;
 
-  speech.text = document.getElementById("textInput").value;
-  speechSynthesis.speak(speech);
-}
+    speech.text = document.getElementById("textInput").value;
+    speechSynthesis.speak(speech);
+  });
 
-function pauseSpeech() {
+document.getElementById("pauseSpeechButton").addEventListener("click", () => {
   if (isSpeaking) {
     isSpeaking = false;
     speechSynthesis.pause();
@@ -33,23 +35,9 @@ function pauseSpeech() {
     ).innerHTML = `Pause<img class="icon-link-small"
     src="./assets/icons/pauseIcon.svg">`;
   }
-}
-
-function stopSpeech() {
-  isSpeaking = false;
-  speechSynthesis.cancel();
-}
+});
 
 document.getElementById("stopSpeechButton").addEventListener("click", () => {
-  stopSpeech();
+  isSpeaking = false;
+  speechSynthesis.cancel();
 });
-
-document.getElementById("pauseSpeechButton").addEventListener("click", () => {
-  pauseSpeech();
-});
-
-document
-  .getElementById("speakInputTextButton")
-  .addEventListener("click", () => {
-    speakInputText();
-  });
