@@ -16,9 +16,6 @@
 <body>
   <div class="main">
 
-    <!-- ----------------------------------------------------------------------- -->
-    <!--                                Section 1                                -->
-    <!-- ----------------------------------------------------------------------- -->
     <div id="section-1" class="section-alignment">
 
       <!-- Top content -->
@@ -42,65 +39,21 @@
 
         <button class="button-standard" id="stopSpeechButton">Stop<img class="icon-link-small"
             src="./assets/icons/stopIcon.svg"></button>
-
       </div>
 
-      <div id="dropdowns">
-        <div class="optionsDiv">
-          <select name="voiceOptions" id="voiceOptions" onchange="changeVoice(this.value)">
-            <!-- <option value="voice1">Daniel's voice</option>
-            <option value="voice7">Samantha's voice</option>
-            <option value="voice3">Alex's voice</option>
-            <option value="voice6">Olivia's voice</option>
-            <option value="voice2">Raj's voice</option>
-            <option value="voice4">Fiona's voice</option>
-            <option value="voice5">Fred's voice</option>
-            <option value="voice8">Tessa's voice</option>
-            <option value="voice9">Victoria's voice</option> -->
-            <!-- 
-              The above is commented out because voices aren't always the same.
-              Different devices have different voice names 
-            -->
-            <option value="voice1">Voice 1</option>
-            <option value="voice7">Voice 2</option>
-            <option value="voice3">Voice 3</option>
-            <option value="voice6">Voice 4</option>
-            <option value="voice2">Voice 5</option>
-            <option value="voice4">Voice 6</option>
-            <option value="voice5">Voice 7</option>
-            <option value="voice8">Voice 8</option>
-            <option value="voice9">Voice 9</option>
-          </select>
-        </div>
-
-        <div class="optionsDiv">
-          <select name="speedOptions" id="speedOptions" onchange="changeVoiceSpeed(this.value)">
-            <option value="speed1">1x speed</option>
-            <option value="speed0.75">0.75x speed</option>
-            <option value="speed0.5">0.5x speed</option>
-            <option value="speed1.25">1.25x speed</option>
-            <option value="speed1.5">1.5x speed</option>
-            <option value="speed1.75">1.75x speed</option>
-            <option value="speed2">2x speed</option>
-
-          </select>
-        </div>
-      </div>
-
-      <div id="indicators">
-
-        <div id="repo-links">
-          <a class="indicator" href="https://virejdasani.github.io" target="_blank">Developed by Virej Dasani</a>
-
-          <p class="indicator indicator-separator">•</p>
-
-          <a class="indicator" href="https://github.com/virejdasani/OfflinetextToSpeech" target="_blank">GitHub</a>
-        </div>
-
-      </div>
     </div>
 
+    <div id="indicators">
+
+      <div id="repo-links">
+
+        <p><a class="indicator" href="https://virejdasani.github.io" target="_blank">Developed by Virej Dasani</a> • <a
+            class="indicator" href="https://github.com/virejdasani/OfflinetextToSpeech" target="_blank">GitHub</a></p>
+      </div>
+
+    </div>
   </div>
+
 
   <script src="popup.js"></script>
 </body>
