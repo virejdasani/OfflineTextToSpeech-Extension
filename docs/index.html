@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Page title and Favicon -->
+  <title>Offline Text To Speech</title>
+  <link rel="icon" href="assets/appLogo.png" />
+
+  <!-- Primary Meta Tags -->
+  <title>Offline Text To Speech</title>
+  <meta name="title" content="Offline Text To Speech">
+  <meta name="description" content="Convert your text to speech!">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://virejdasani.github.io/OfflineTextToSpeech-Extension/">
+  <meta property="og:title" content="Offline Text To Speech">
+  <meta property="og:description" content="Convert your text to speech!">
+  <meta property="og:image" content="https://virejdasani.github.io/OfflineTextToSpeech-Extension/assets/appLogo.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://virejdasani.github.io/OfflineTextToSpeech-Extension/">
+  <meta property="twitter:title" content="Offline Text To Speech">
+  <meta property="twitter:description" content="Convert your text to speech!">
+  <meta property="twitter:image"
+    content="https://virejdasani.github.io/OfflineTextToSpeech-Extension/assets/appLogo.png">
+
+  <!-- Scripts -->
+  <script src="./scripts/smooth-scroll.js"></script>
+  <script src="./scripts/smooth-scroll-commands.js"></script>
+
+</head>
+
+<body>
+
+  <!-- Used to setup downloads -->
+  <iframe id="invisible" style="display:none;"></iframe>
+
+  <!-- This is the sticky bar that moves with a scroll -->
+  <div id="sticky-bar">
+    <div id="sticky-bar-content">
+      <div class="backdrop"></div>
+      <div class="foreground">
+        <div id="sticky-bar-squeezer">
+          <a id="sticky-bar-home" href="javascript:;" onclick="return scrollToTop();">
+            <img src="./assets/appLogo.png" width="50px" height="50px">
+            <h4>Offline Text To Speech</h4>
+          </a>
+
+          <div id="sticky-bar-links">
+
+            <!-- GitHub Sticky Link -->
+            <a href="" target="_blank">GitHub</a>
+            <div class="padding"></div>
+
+            <!-- Download Sticky Link -->
+            <a href="/releases">Downloads</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="main-padding">
+    <!-- Contains all content including footer -->
+    <div class="main">
+
+      <!-- ----------------------------------------------------------------------- -->
+      <!--                                Section 1                                -->
+      <!-- ----------------------------------------------------------------------- -->
+      <div id="section-1" class="section-alignment">
+
+        <!-- Top content -->
+        <img id="app-icon" src="./assets/appLogo.png">
+        <h2 id="landing-header">Offline Text To Speech</h2>
+        <h4 id="landing-subtitle">Convert your text to speech!</h4>
+        <div class="padding"></div>
+
+        <!-- -------------------------- App store buttons -------------------------- -->
+
+        <div id="app-store-buttons">
+          <!-- Download button -->
+          <a class="button-standard"
+            href="https://chrome.google.com/webstore/detail/offline-text-to-speech/ecnibbdjecjgllmkodkjnodmblmffkkp">Download
+            for Chrome<img class="icon-link" src="./assets/icons/download-icon.svg"></a>
+
+          <p>|</p>
+
+          <!-- Download button -->
+          <a class="button-standard"
+            href="https://addons.mozilla.org/en-US/firefox/addon/offline-text-to-speech/">Download for Firefox<img
+              class="icon-link" src="./assets/icons/download-icon.svg"></a>
+        </div>
+
+        <!-- Indicators -->
+        <div id="indicators">
+
+          <div id="repo-links">
+            <!-- Releases -->
+            <a class="indicator" href="/releases" target="_blank">Releases</a>
+
+            <p class="indicator indicator-separator">•</p>
+
+            <!-- Repository -->
+            <a class="indicator" href="" target="_blank">Repository</a>
+          </div>
+
+        </div>
+        <div class="padding"></div>
+
+        <div class="center-image">
+          <img id="image1" src="assets/image1.png">
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div id="footer">
+
+        <hr id="footer-rule" class="remove-bottom-margin">
+
+        <!-- Contains icons, and text -->
+        <div id="footer-content">
+
+          <!-- Created by... -->
+          <p class="footer-font">Offline Text To Speech is developed and maintained by <a
+              href="https://virejdasani.github.io/" class="link" target="_blank">Virej Dasani</a></p>
+          <!-- Copyright -->
+          <p class="footer-font">©2021</p>
+        </div>
+      </div>
+
+      <!-- Bottom padding -->
+      <div class="padding-bottom"></div>
+    </div>
+  </div>
+
+</body>
+
+</html>
