@@ -1,4 +1,4 @@
-# OfflineTextToSpeech-Extension
+# Offline Text To Speech Extension
 
 ![](https://raw.githubusercontent.com/virejdasani/OfflineTextToSpeech-Extension/main/assets/banners/bannerBG.png)
 
