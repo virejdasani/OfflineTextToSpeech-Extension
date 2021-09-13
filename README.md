@@ -1,6 +1,7 @@
 # Offline Text To Speech Extension
 
-## Download links coming soon!
+## [Download for Chrome](https://chrome.google.com/webstore/detail/offline-text-to-speech/ecnibbdjecjgllmkodkjnodmblmffkkp)
+## [Download for Firefox](https://addons.mozilla.org/en-US/firefox/addon/offline-text-to-speech/)
 
 ![](https://raw.githubusercontent.com/virejdasani/OfflineTextToSpeech-Extension/main/assets/banners/bannerBG.png)
 
