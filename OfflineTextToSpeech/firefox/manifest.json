@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Offline Text To Speech",
+  "version": "1.0.0",
+  "description": "Convert your text to speech!",
+  "browser_action": {
+    "default_icon": "assets/icon.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "assets/icon16.png",
+    "48": "assets/icon48.png",
+    "96": "assets/icon96.png",
+    "128": "assets/icon128.png"
+  }
+}

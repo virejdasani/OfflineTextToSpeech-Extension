@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" href="assets/icon.png" />
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Offline Text To Speech</title>
+</head>
+
+<body>
+  <div class="main">
+
+    <div id="section-1" class="section-alignment">
+
+      <!-- Top content -->
+      <h2 id="landing-header">Offline Text To Speech</h2>
+      <div class="padding"></div>
+
+      <textarea type="text" id="textInput" rows="8" placeholder="Enter text here to speak it"></textarea>
+
+      <div class="padding-semi-large"></div>
+
+      <div id="app-store-buttons">
+        <button class="button-standard" id="speakInputTextButton"">Speak
+          Text<img class=" icon-link" src="./assets/icons/speakIcon.svg"></button>
+
+        <p>|</p>
+
+        <button class="button-standard" id="pauseSpeechButton">Pause<img class="icon-link-small"
+            src="./assets/icons/pauseIcon.svg"></button>
+
+        <p>|</p>
+
+        <button class="button-standard" id="stopSpeechButton">Stop<img class="icon-link-small"
+            src="./assets/icons/stopIcon.svg"></button>
+      </div>
+
+    </div>
+
+    <div id="indicators">
+
+      <div id="repo-links">
+
+        <p><a class="indicator" href="https://virejdasani.github.io" target="_blank">Developed by Virej Dasani</a> • <a
+            class="indicator" href="https://github.com/virejdasani/OfflinetextToSpeech-Extension"
+            target="_blank">GitHub</a></p>
+      </div>
+
+    </div>
+  </div>
+
+
+  <script src="popup.js"></script>
+</body>
+
+</html>
